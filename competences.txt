@@ -1,0 +1,10 @@
+1. C#
+2. JavaScript
+3. SQL
+4. ASP.Net
+5. React
+6. Node.js
+7. Angular
+8. GraphQL
+9. Design Patterns
+10. System Architecture

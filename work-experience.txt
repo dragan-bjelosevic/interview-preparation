@@ -1,0 +1,41 @@
+1. Reputation.com
+    Description: migration of an old Angular.js application to React.js
+    Role: leading front-end team
+    Technologies used: Angular.js (Angular 1), React.js, ElasticSearch, Node.js, JavaScript, TypeScript, Thrift, Java, Microservices, REST
+    New Tech: Thrift (RPC communication), grunt
+    Challenges: dynamic environment, fast-changing business decisions, time zones
+
+2. Zoom
+    Description: customization and migration of chat-bot customers
+    Role: senior JavaScript developer
+    Technologies: JavaScript, Node.js, REST, GraphQL
+    New Tech: GraphQL
+    Challenges: time zones
+
+3. VodafoneZiggo Sp1ne
+    Description: development of telecom access network configuration platform
+    Role: senior full-stack developer
+    Technologies: C#, ASP.Net Core, JavaScript, React, Microservices, Netflix Conductor
+    New Tech: Microservices, Netflix Conductor
+    Challenges: 
+
+4. VodafoneZiggo E-Commerce
+    Description: developement of telecom customer equipment webshop && config Technologies
+    Role: senior full-stack developer
+    Technologies: C#, ASP.Net Core, JavaScript, React, CxJs, Redis Cache, SQL Server, PostGreSQL
+    New Tech: CxJs, Redis Cache
+    Challenges: 
+
+5. Prosperoware Licensing Portal
+    Description: development of a web api and portal for license management
+    Role: sole developer on a side project
+    Technologies: C#, Azure Functions, SharePoint, Azure Storage Tables
+    New Tech: SharePoint
+    Challenges:
+
+6. Prosperoware Umbria Cloud 
+    Description: Azure integration and deployment
+    Role: senior software developer
+    Technologies: C#, ASP.Net Framework, Azure Functions, SQL Server, ElasticSearch, Azure Data Factory, Docker, Azure Kubernetes Services, Azure Pipelines
+    New Tech: Azure, Kubernetes, Docker
+    Challenges: 

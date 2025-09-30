@@ -1,0 +1,9 @@
+Description:
+    Defines an interface for creating objects in a superclass, but lets subclasses decide upon which class to instantiate
+Type:
+    Creational
+When to use:
+    - we want to decouple client (user class) from the object creation
+    - we want to delegate object creation to subclasses
+    - exact object type is not known until runtime
+

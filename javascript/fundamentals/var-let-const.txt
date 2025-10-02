@@ -1,0 +1,12 @@
+1. Global scope
+    - all accessible from any part of code
+    - var added to global object
+
+2. Function scope
+    - all available only inside function body
+
+3. Block scope
+    - var available outside of block scope
+    - let and const available only inside block
+
+

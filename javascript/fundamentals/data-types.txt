@@ -1,0 +1,16 @@
+Data Type       Kind	        Example	                    typeof Result	Notes
+---------       -------         -------                     -------------   -----
+Number	        primitive       42, 3.14	                "number"	    Includes integers and floats
+BigInt	        primitive       12345678901234567890n	    "bigint"	    For very large integers
+String	        primitive       "Hello", 'World'	        "string"	    Text values
+Boolean	        primitive       true, false	                "boolean"	    Logical true/false
+Undefined	    primitive       let x;	                    "undefined"	    Default value of uninitialized variables
+Null	        primitive       null	                    "object" ⚠️	    Represents no value (JS quirk)
+Symbol	        primitive       Symbol("id")	            "symbol"	    Unique identifier
+Object	        reference       {name: "Alice", age: 25}	"object"	    Key-value pairs
+Array	        reference       [1,2,3]	                    "object"	    Special type of object for lists
+Function	    reference       function greet() {}	        "function"	    Callable blocks of code
+Date	        reference       new Date()	                "object"	    Represents date/time
+RegExp	        reference       /abc/	                    "object"	    Regular expression pattern
+Map	            reference       new Map()	                "object"	    Key-value pairs (like object but with more features)
+Set	            reference       new Set([1,2,3])	        "object"	    Collection of unique values

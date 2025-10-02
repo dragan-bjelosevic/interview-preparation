@@ -1,0 +1,65 @@
+Regular functions - this does not depend on the function's lexical scope but on how the function is invoked
+A. Regular functions 
+    1. if the function is invoked with new - create a new object and bind this to it
+    2. if the function is invoked with call() or apply() - explicitly bind this to provided context
+    3. if the function is invoked as a method of an object - implicitly bind it to the object, can loose context when assigned to a variable
+    4. if in non-strict mode bind this to globalThis, otherwise let it be undefined
+
+
+
+Arrow functions do not bind this to calling context but will look for it in its enclosing lexical scope
+B. Arrow Functions
+    1. arrow function cannot be used as constructor and cannot be invoked with new
+    2. invoking arrow function with call() or apply() will not have effect on this binding
+    3. invoking arrow function as a method of an object will not be bound to the object
+    4. invoking arrow function on a class instance will point at that instance, binding is permanent so if assigned to a variable this will still point to the instance
+    5. invoking arrow function in global context will inherit global this
+    6. invoking arrow function inside regular function will inherit that function's this
+
+
+
+ES6 modules always run in strict mode
+C. ES6 modules
+    1. in module-level code this is undefined
+    2. in regular top-level function this is undefined
+    3. in arrow function this is lexically bound to enclosing block of code
+
+
+
+CommonJS modules always run in strict mode
+D CommonJS modules
+    1. in module-level code this is bound to module.exports object
+    2. in regular module-level function this is undefined
+    3. in arrow function this is lexicaly bound
+
+
+
+Common Pitfalls and Solutions
+
+A. Event Handlers
+    In event handlers this usually points at the DOM element not our in-memory object
+Solutions:
+ - arrow functions
+ - explicit binding
+ - use self = this
+
+B. Callback functions
+    Functions passed as callbacks to array methods (forEach, map, etc.) loose context so this points at global object or undefined
+Solutions:
+ - arrow functions
+ - explicit binding
+ - use self = this
+
+ C. Promises
+    Functions executing in then() handlers loose their context so this points to global object or undefined
+Solutions:
+- arrow functions
+- explicit binding
+- async await
+
+D. React class based components
+    React class components do not automatically bind functions to the current component instance so when they are passed as props the context is lost (onClick={this.handleClick})
+Solutions:
+- explicit binding methods in constructor (this.handleClick = this.handleClick.bind(this))
+- using arrow functions
+

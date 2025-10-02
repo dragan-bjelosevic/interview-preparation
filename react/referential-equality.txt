@@ -1,0 +1,10 @@
+React re-renders component when:
+- its state changes
+- its parent re-renders and passes the new props
+- a context value that component consumes changes
+
+If parent re-renders child will re-render even when props are the same (unless we wrap the child in React.memo)
+For state and context variables React compares new values with the old values using Object.is comparison - REFERENTIAL INTEGRITY
+Primitive values work great but object and arrays will only be compared by reference.
+
+

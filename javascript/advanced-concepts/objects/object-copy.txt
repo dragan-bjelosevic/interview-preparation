@@ -1,0 +1,20 @@
+1. Spread operator
+    const newObj = {...obj}; 
+    // shallow copy, only own properties, newObj [[Protoype]] is Object.prototype
+
+2. Object.assign method
+    const newObj = ({}, obj);
+    // shallow copy, only own properties, newObj [[Prototype]] is Object.prototype
+
+3. JSON.stringify - JSON.parse 
+    const newObj = JSON.parse(JSON.stringify(obj));
+    // deep copy, newObj [[Prototype]] is Object.prototype, loses functions, undefined, Symbol, dates, Maps, Sets, etc
+
+4. Lodash cloneDeep utility
+    const newObj = _.cloneDeep(obj);
+    // deep copy, newObj [[Protoype]] is Object.prototype, does not loss owned functions (copies references to them) and other data types, loses inherited functions
+
+5. structuredClone method 
+    const newObj = structuredClone(obj);
+    // deep copy, available in modern browsers and Node.js 17+, does not copy functions and class instances
+    

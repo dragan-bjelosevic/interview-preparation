@@ -1,0 +1,23 @@
+1. Object literals
+
+    let myObj = {..}; 
+    // myObj is by default prototypaly linked to the Object.prototype object
+
+2. Object.create
+
+    let myObj = Object.create(anotherObject); 
+    // myObj is linked by [[Protoype]] to anotherObject
+
+    let myObj = Object.create(null); 
+    // myObj is not linked by [[Prototype]] to any object
+
+3. new keyword
+
+    let myObj = new Object(); 
+    // exactly the same as an empty object literals {}, prototypaly linked to Object.prototype
+
+4. Class instantiation
+
+    let myObj = new MyClass();
+    // myObj is prototypaly linked to MyClass.prototype which is linked to Object.prototype
+    

@@ -1,0 +1,8 @@
+Description: 
+    Provides an interface for creating families of related or dependent objects without specifying their concrete classes
+Type:
+    Creational
+When to use:
+    - when we need to consume families of related products, but don't want to depend on their concrete classes
+    - when we have a class with a set of factory methods that blur its primary responsibility
+    

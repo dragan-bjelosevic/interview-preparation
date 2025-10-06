@@ -1,0 +1,8 @@
+Description: 
+    Allows multiple observers to be automatically notified when a subject's state updates
+Type:
+    Behavioral
+When to use:
+    - when we need loose coupling between one component that updates changes and multiple components that need to act upon the change
+
+    

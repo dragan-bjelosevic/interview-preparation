@@ -1,0 +1,9 @@
+Description: 
+    Pattern used to manage snapshots of the object's state without breaking encapsulation (revealing its internal structure)
+Type:
+    Behavioral
+When to use:
+    - when we need to create object's snapshot and undo/redu functionality
+
+
+    

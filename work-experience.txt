@@ -1,7 +1,7 @@
 1. Reputation.com
     Description: migration of an old Angular.js application to React.js
     Role: leading front-end team
-    Technologies used: Angular.js (Angular 1), React.js, ElasticSearch, Node.js, JavaScript, TypeScript, Thrift, Java, Microservices, REST
+    Technologies used: Angular.js (Angular 1.6), React.js, ElasticSearch, Node.js, JavaScript, TypeScript, Thrift, Java, Microservices, REST
     New Tech: Thrift (RPC communication), grunt
     Challenges: dynamic environment, fast-changing business decisions, time zones
 

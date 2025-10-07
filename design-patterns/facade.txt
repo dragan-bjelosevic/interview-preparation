@@ -1,0 +1,10 @@
+Description: 
+    Provides simlified interface to a complex set of classes (e.g. library or a framework)
+Type:
+    Structural
+When to use:
+    - when we need to hide complex set of classes and provide simpler interface for the client
+    - when we break subsystem into layers and enable communication between layers only through facades
+    - when we break monolith into modular monolith architecture and provide only facade to other modules
+
+    

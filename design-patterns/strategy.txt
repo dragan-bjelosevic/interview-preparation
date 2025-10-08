@@ -1,0 +1,10 @@
+Description: 
+    Let's us define a family of algorithms, encapsulate them into separate classes, and make them interchangeable
+Type:
+    Behavioral
+When to use:
+    - when we have multiple algorithms for a task
+    - when behaviors should be interchangeable at runtime
+    
+
+    

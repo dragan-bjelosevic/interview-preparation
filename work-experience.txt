@@ -20,7 +20,7 @@
     Challenges: 
 
 4. VodafoneZiggo E-Commerce
-    Description: developement of telecom customer equipment webshop && config Technologies
+    Description: developement of e-commerce && config apps for a large telecom
     Role: senior full-stack developer
     Technologies: C#, ASP.Net Core, JavaScript, React, CxJs, Redis Cache, SQL Server, PostGreSQL
     New Tech: CxJs, Redis Cache

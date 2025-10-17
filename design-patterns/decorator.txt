@@ -1,0 +1,10 @@
+Description: 
+    Enables adding new behavior to objects by placing these objects inside wrappers that contain that behavior
+Type:
+    Structural
+When to use:
+    - when we need to extend functionality of existing sealed class from external library
+    - when we want to assign additional functionaity to objects at runtime whithout breaking the code that uses these objects
+    
+
+    

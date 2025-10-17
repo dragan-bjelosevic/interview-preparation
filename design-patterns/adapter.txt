@@ -1,0 +1,10 @@
+Description: 
+    Converts interface of a class into another interface that client expects
+Type:
+    Structural
+When to use:
+    - when we need to enable class with incompatible interfaces to work together
+
+    
+
+    
